@@ -5,11 +5,11 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    ACR_NAME = "boboacrr"
-    registyUrl = "boboacrr.azurecr.io"
+    ACR_NAME = "ninoacrr"
+    registyUrl = "ninoacrr.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
-    registryCredential  = "karo-acr"
+    registryCredential  = "nino-acr"
     }
     stages { 
         stage('SCM Checkout') {
