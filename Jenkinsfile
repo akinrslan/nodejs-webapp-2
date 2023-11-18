@@ -14,7 +14,7 @@ pipeline {
     stages { 
         stage('SCM Checkout') {
             steps{
-           git branch: 'main', url: 'https://github.com/ooghenekaro/nodejs-webapp-2.git'
+           git branch: 'main', url: 'https://github.com/akinrslan/nodejs-webapp-2.git'
             }
         }
         // run sonarqube test
